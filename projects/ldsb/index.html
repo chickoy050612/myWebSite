@@ -1,0 +1,128 @@
+<!--Name: Roman T. Borja III
+    INFO-5064 Project 2
+    Due Date: April 9, 2020-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            background-image:url('image.jpeg');
+            font-family: 'Roboto', sans-serif;
+        }
+            h1 {
+            font-family: Verdana;
+            font-size: 24pt;
+            color: #2ab88d;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        h2 {
+            font-family: Verdana;
+            font-size: 18pt;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>London Schools</title>
+
+</head>
+
+<body>
+
+    <h1>Schools in London, Ontario</h1>
+    <table>
+        <tr style="font-weight: bolder;">
+            <td >
+                <label for="selectedType">Select Type:</label>
+            </td>
+            <td>
+                <select id="selectedType">
+                    <option value="">All School</option>
+                    <option value="Adult-Education">Adult-Education</option>
+                    <option value="Elementary">Elementary</option>
+                    <option value="Post-Secondary">Post-Secondary</option>
+                    <option value="Pre-School">Pre-School</option>
+                    <option value="Secondary">Secondary</option>
+                </select>
+            </td>
+            <td>
+                <label for="charInput">Name (or partial): </label>
+                <input type="text" id="charInput" />
+            </td>
+            <td>
+                <input type="submit" value="Submit" onclick="getSchools()" />
+            </td>
+        </tr>
+    </table>
+ 
+    <div id="xsltOutputContainer"></div>
+
+    <script type="text/javascript">
+
+        function loadXMLDoc(filename) {
+            if (window.ActiveXObject) {
+                xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            else {
+                xhttp = new XMLHttpRequest();
+            }
+            xhttp.open("GET", filename, false);
+
+            try {
+                xhttp.responseType = "msxml-document"
+            }
+            catch (err) { }
+            xhttp.send("");
+            return xhttp.responseXML;
+        }
+
+        
+
+        function getSchools() {
+            xml = loadXMLDoc("schools.xml");
+            xslt = loadXMLDoc("schools.xslt");
+
+            //retrieve the value base on the dropdown menu
+            var s = document.getElementById("selectedType");
+            var selectedType = s.options[s.selectedIndex].value;
+            console.log('test 1:', selectedType);
+
+            //get the value of input text in the text box
+            var charInput = document.getElementById("charInput").value;
+            //make the string first letter to be capital
+            charInput = charInput.toLowerCase().split(' ').map((c) => c.charAt(0).toUpperCase() + c.substring(1)).join(' ');
+            console.log('test 2: ', charInput)
+
+
+            if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+                var template = new ActiveXObject("Msxml2.XslTemplate.6.0");
+                template.stylesheet = xslt;
+
+                var proc = template.createProcessor();
+                proc.input = xml;
+                proc.addParameter("selectedType", selectedType);
+                proc.addParameter("inputCharacter", charInput);
+
+                proc.transform();
+       
+                document.getElementById("xsltOutputContainer").innerHTML = proc.output;
+            }
+            else if (typeof XSLTProcessor !== 'undefined') {
+                var xsltProcessor = new XSLTProcessor();
+                xsltProcessor.importStylesheet(xslt);
+
+                xsltProcessor.setParameter(null, "selectedType", selectedType);
+                xsltProcessor.setParameter(null, "inputCharacter", charInput);
+
+                var resultDocument = xsltProcessor.transformToFragment(xml, document);
+                document.getElementById("xsltOutputContainer").innerHTML = "";
+                document.getElementById("xsltOutputContainer").appendChild(resultDocument);
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

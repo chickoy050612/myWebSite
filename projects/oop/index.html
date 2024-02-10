@@ -1,0 +1,668 @@
+<!--Name: Roman T. Borja III
+    Due Date: 08-08-2019-->
+
+    <!DOCTYPE html>
+    <html>
+    
+    <head>
+        <title>Project 2</title>
+        <link rel="stylesheet" href="stylsheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Lacquer|Roboto&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <h1>Device Tree Classes</h1>
+        <main>
+            <div class="container">
+                <div class="box" style="left: 300px; top: 100px;">
+                    <h2>Video Device</h2>
+                    <div id="insideBox" class="box2" style="left: 20px; top: 60px;">
+                    <table>
+                      <tr>
+                        <td>Replacement Cost ($):</td>
+                        <td><input type="text" name="Replacement Cost" id="repCost" class="inputbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Supplier Name:</td>
+                        <td><input type="text" name="Supplier Name" id="suppName" class="inputbox"></td>
+                      </tr>                                          
+                      <tr>
+                          <td>Serial Number:</td>
+                          <td><input type="text" name="Serial Number" id="serialNumber" class="inputbox"></td>
+                      </tr>
+                      <tr>
+                          <td>Resolution:</td>
+                          <td><input type="text" name="Resolution" id="resolution" class="inputbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Type:</td>
+                        <td><input type="text" name="Type" id="vidType" class="inputbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Status:</td>
+                        <td>Enable<input type="radio" id="radiobutton" name="selectButton1" value="enable" checked>
+                        Disable<input type="radio" id="radiobutton" name="selectButton1" value="disable"></td>
+                      </tr>
+                    </table>
+                    </div>
+                    <table style="left: 20px; top: 400px";>
+                        <tr>
+                            <td>
+                                <input type="button" id="prevVid" value="Previous" class="button" onclick="previousVideo();">
+                            </td>
+                            <td>
+                                <input type="button" id="nextVid" value="Next" class="button" onclick="nextVideo();">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" id="newVid" value="New" class="button" onclick="newVideo();">
+                            </td>
+                            <td>
+                                <input type="button" id="updateVid" value="Update" class="button" onclick="updateVideo();">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <div class="box" style="left: 750px; top: 100px;">
+                    <h2>Hard Disk</h2>
+                    <div id="insideBox" class="box2" style="left: 20px; top: 60px;">
+                    <table>
+                        <tr>
+                            <td>Replacement Cost ($):</td>
+                            <td><input type="text" name="Replacement Cost" id="repCostHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Supplier Name:</td>
+                            <td><input type="text" name="Supplier Name" id="suppNameHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Serial Number:</td>
+                            <td><input type="text" name="Serial Number" id="serialNumberHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Size:</td>
+                            <td><input type="text" name="Size" id="sizeHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Transfer Rate:</td>
+                            <td><input type="text" name="Transfer Rate" id="transRateHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Platter Size:</td>
+                            <td><input type="text" name="Platter Size" id="platterSizeHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Number of Platters:</td>
+                            <td><input type="text" name="Number of Platter" id="platterNumHD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Status:</td>
+                            <td>Enable<input type="radio" id="radiobuttonHD" name="selectButton2" value="enable" checked>
+                            Disable<input type="radio" id="radiobuttonHD" name="selectButton2" value="disable"></td>
+                        </tr>
+                    </table>
+                      
+                    </div>
+                    <table style="left: 20px; top: 400px" ;>
+                        <tr>
+                            <td>
+                                <input type="button" id="prevHD" value="Previous" class="button" onclick="previousHD();">
+                            </td>
+                            <td>
+                                <input type="button" id="nextHD" value="Next" class="button" onclick="nextHD();">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" id="newHD" value="New" class="button" onclick="newHD();">
+                            </td>
+                            <td>
+                                <input type="button" id="updateHD" value="Update" class="button" onclick="updateHD();">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <div class="box" style="left: 1200px; top: 100px;">
+                    <h2>SSD</h2>
+                    <div id="insideBox" class="box2" style="left: 20px; top: 60px;">
+                    <table>
+                        <tr>
+                            <td>Replacement Cost ($):</td>
+                            <td><input type="text" name="Replacement Cost" id="repCostSSD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Supplier Name:</td>
+                            <td><input type="text" name="Supplier Name" id="suppNameSSD" class="inputbox"></td>
+                        </tr>                                          
+                        <tr>
+                            <td>Serial Number:</td>
+                            <td><input type="text" name="Serial Number" id="serialNumberSSD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Size:</td>
+                            <td><input type="text" name="Size" id="sizeSSD" class="inputboxSSD"></td>
+                        </tr>
+                        <tr>
+                            <td>Transfer Rate:</td>
+                            <td><input type="text" name="Transfer Rate" id="transRateSSD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Type:</td>
+                            <td><input type="text" name="Type" id="typeSSD" class="inputbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Wear Level:</td>
+                            <td>
+                                <select id="wearLevelSSD">
+                                    <option value="true">High</option>
+                                    <option value="false">Low</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Status:</td>
+                            <td>Enable<input type="radio" id="radiobuttonSSD" name="selectButton3" value="enable" checked>
+                                Disable<input type="radio" id="radiobuttonSSD" name="selectButton3" value="disable"></td>
+                        </tr>
+                    </table>
+                    </div>
+                    <table style="left: 20px; top: 400px" ;>
+                        <tr>
+                            <td>
+                                <input type="button" id="prevSSD" value="Previous" class="button" onclick="previousSSD();">
+                            </td>
+                            <td>
+                                <input type="button" id="nextSSD" value="Next" class="button" onclick="nextSSD();">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" id="newSSD" value="New" class="button" onclick="newSSD();">
+                            </td>
+                            <td>
+                                <input type="button" id="updateSSD" value="Update" class="button" onclick="updateSSD();">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+    
+            </div>
+        </main>
+    </body>
+
+    <script>
+        //Classess================================================================
+        //create a base class named Device
+        class Device 
+        {
+            constructor (replacementCost, supplierName, serialNumber, _status)
+            {
+                this.replacementCost = replacementCost;
+                this.supplierName = supplierName;
+                this.serialNumber = serialNumber;
+                this._status = _status;
+            }
+            //create a method that set the status as 1 to enable and 0 to disable.
+            enable()
+            {
+                this._status = 1;
+            }
+            disable()
+            {
+                this._status = 0;
+            }
+            get status()
+            {
+                return this._status;
+            }
+
+        }
+        //extend the class device with video device
+        class videoDevice extends Device
+        {
+            constructor (replacementCost, supplierName, serialNumber, _status, resolution, type)
+            {
+                super (replacementCost, supplierName, serialNumber, _status);
+                this.resolution = resolution;
+                this.type = type;
+            }
+        }
+        //extend the class device with another class name diskdevice
+        class diskDevice extends Device
+        {
+            constructor (replacementCost, supplierName, serialNumber, _status, size, transferRate)
+            {
+                super (replacementCost, supplierName, serialNumber, _status);
+                this.size = size;
+                this.transferRate = transferRate;
+            }
+        }
+        //exted the class diskdevice with another class name hardDisk
+        class hardDisk extends diskDevice
+        {
+            constructor (replacementCost, supplierName, serialNumber, _status, size, transferRate, platterSize, numOfPlatters)
+            {
+                super (replacementCost, supplierName, serialNumber, _status, size, transferRate);
+                this.platterSize = platterSize;
+                this.numOfPlatters = numOfPlatters;
+            }
+        }
+        //extend the class diskdevice with another class name SSD
+        class SSD extends diskDevice
+        {
+            constructor (replacementCost, supplierName, serialNumber, _status, size, transferRate, type, wearLvl)
+            {
+                super (replacementCost, supplierName, serialNumber, _status, size, transferRate);
+                this.type = type;
+                this.wearLvl = wearLvl;
+            }
+            
+        }
+
+        //Globals=================================================
+        //array for the 3 objects
+        let videoArray = [];
+        let hdArray = [];
+        let ssdArray = [];
+        //index counter for the arrays
+        let counter = 0;
+    
+        //Functions===================================================
+
+        //Video Devices UI
+        //create a method for newVideo
+        function newVideo()
+        {
+            //grabbed all the user input uder videoDevice class
+            var vdRepCost = document.getElementById("repCost").value;
+            var vdsuppName = document.getElementById("suppName").value;
+            var vdserialNumber = document.getElementById("serialNumber").value;
+            var vdStatus = document.getElementById("radiobutton").checked;
+            var vdResolution = document.getElementById("resolution").value;
+            var vdType = document.getElementById("vidType").value;
+
+            //store the user input in the constructor of videodevice
+            var vdObject = new videoDevice(parseFloat(vdRepCost), vdsuppName, vdserialNumber, vdStatus, vdResolution, vdType);
+
+            //push the vdObject in an array
+            videoArray.push(vdObject);
+
+            if (vdStatus === true)
+            {
+                vdObject.enable = 1;
+            }
+            else
+            {
+                vdObject.disable = 0;
+            }
+            for(var prop in vdObject)
+            {
+                console.log(prop, ": ", vdObject[prop]);
+            }
+            alert ("New Video Added!")
+
+        }
+        //test the videodevice object and video array
+        var testObj1 = new videoDevice(87.98, "Borjie Suppliers", "128893724", 0, "1024×576", "LCD");
+        var testObj2 = new videoDevice(99.99, "Besh IT Products", "0000010013", 1, "1920×1080", "LED");
+        var testObj3 = new videoDevice(57.90, "Bams IT", "#0019247", 1, "1020x450", "OLED");
+        var testObj4 = new videoDevice(49.99, "Sofiya's IT", "#02321-20", 0, "3980x1980", "OLED-LCD");
+        var testObj5 = new videoDevice(49.99, "Tala's Office Supplies", "#023-21-32310", 1, "4K", "OLED");
+        //print the testobj in the console
+        for (var prop in testObj1)
+        {
+            console.log(prop, ": ", testObj1[prop]);
+            console.log(prop, ": ", testObj2[prop]);
+            console.log(prop, ": ", testObj3[prop]);
+            console.log(prop, ": ", testObj4[prop]);
+            console.log(prop, ": ", testObj5[prop]);
+        }
+        //push the object in the hd arrays
+        videoArray.push(testObj1);
+        videoArray.push(testObj2);
+        videoArray.push(testObj3);
+        videoArray.push(testObj4);
+        videoArray.push(testObj5);
+        console.log(videoArray);
+        //show video Device
+        function showVideoProp()
+        {
+            for (var prop in videoArray)
+            {
+                document.getElementById("repCost").value = videoArray[counter]["replacementCost"];
+                document.getElementById("suppName").value = videoArray[counter]["supplierName"];
+                document.getElementById("serialNumber").value = videoArray[counter]["serialNumber"];
+                //console.log(videoArray[counter].status);
+                if(videoArray[counter].status === 1)
+                {
+                    radiobutton[0].checked = true;
+                }
+                else {
+                    radiobutton[1].checked = true;
+                }
+                document.getElementById("resolution").value = videoArray[counter]["resolution"];
+                document.getElementById("vidType").value = videoArray[counter]["type"];
+            }
+        }
+        //create a method for updateVid
+        function updateVideo()
+        {
+            //grabbed all the user input uder videoDevice class
+            var vdRepCost = document.getElementById("repCost").value;
+            var vdsuppName = document.getElementById("suppName").value;
+            var vdserialNumber = document.getElementById("serialNumber").value;
+            var vdStatus = document.getElementById("radiobutton").checked;
+            var vdResolution = document.getElementById("resolution").value;
+            var vdType = document.getElementById("vidType").value;
+
+            //reiterate the videoarray to access the property 
+            for (var prop in videoArray[counter])
+            {
+                videoArray[counter].replacementCost = parseFloat(vdRepCost);
+                videoArray[counter].supplierName = vdsuppName;
+                videoArray[counter].serialNumber = vdserialNumber;
+                videoArray[counter]._status = (vdStatus === true ? 1:0);
+                videoArray[counter].resolution = vdResolution;
+                videoArray[counter].type = vdType;
+            }
+            alert ("Video Device Property updated!")
+        }
+        //create a method for nextVideo
+        function nextVideo()
+        {
+            if (counter < videoArray.length - 1)
+            {
+                counter++;
+                showVideoProp();
+            }
+            else
+            {
+                alert("No more VIDEOS Device Properties to show!");
+            }
+        }
+        //create a method for prevVideo
+        function previousVideo()
+        {
+            if (counter > 0)
+            {
+                counter--;
+                showVideoProp();
+            }
+            else
+            {
+                alert("No more VIDEOS to show if you click Previous! Please Press Next!");
+            }
+        }
+
+        //Hard Disk UI
+        //Create a method for newHD
+        function newHD() 
+        {
+            //grabbed all the user input uder Hard Disk class
+            var repCostHD = document.getElementById("repCostHD").value;
+            var suppNameHD = document.getElementById("suppNameHD").value;
+            var serialNumberHD = document.getElementById("serialNumberHD").value;
+            var sizeHD = document.getElementById("sizeHD").value;
+            var transRateHD = document.getElementById("transRateHD").value;
+            var platterSizeHD = document.getElementById("platterSizeHD").value;
+            var platterNumHD = document.getElementById("platterNumHD").value;
+            var hdStatus = document.getElementById("radiobuttonHD").checked;
+
+            //store the user input in the constructor of harddisk
+            var hdObject = new hardDisk(parseFloat(repCostHD), suppNameHD, serialNumberHD, hdStatus, sizeHD, transRateHD, platterSizeHD, parseInt(platterNumHD));
+
+            //push the HDObject in an array
+            hdArray.push(hdObject);
+
+            if (hdStatus === true)
+            {
+                hdObject.enable = 1;
+            }
+            else
+            {
+                hdObject.disable = 0;
+            }
+            for(var prop in hdObject)
+            {
+                console.log(prop, ": ", hdObject[prop]);
+            }
+            alert ("New Hard Disk Added!");
+        }
+        //test the hard disk object and hard disk array
+        var hdObj1 = new hardDisk(99.99, "Samsung", "00000001", 1, "1TB", "100MB/sec", "1.25 inches", 5);
+        var hdObj2 = new hardDisk(145.78, "ScandDisk", "2314-123-13", 0, "4TB", "250MB/sec", "2 inches", 10);
+        var hdObj3 = new hardDisk(245.78, "ScandDisk2", "20985720CA1", 0, "10TB", "500MB/sec", "2.3 inches", 15);
+        var hdObj4 = new hardDisk(199.99, "Sony Cruzer", "#12-0293ABEWz1", 1, "7TB", "69MB/sec", "1.2 inches", 2);
+        var hdObj5 = new hardDisk(129.98, "Lorex", "#12-HDD6TB-D", 1, "6TB", "100MB/sec", "4 inches", 5);
+        for (var prop in hdObj1)
+        {
+            console.log(prop, ": ", hdObj1[prop]);
+            console.log(prop, ": ", hdObj2[prop]);
+            console.log(prop, ": ", hdObj3[prop]);
+            console.log(prop, ": ", hdObj4[prop]);
+            console.log(prop, ": ", hdObj5[prop]);
+        }
+        //push the object to hdArray
+        hdArray.push(hdObj1);
+        hdArray.push(hdObj2);
+        hdArray.push(hdObj3);
+        hdArray.push(hdObj4);
+        hdArray.push(hdObj5);
+        console.log(hdArray);
+        //display Hard Disk Device
+        function showHDProp()
+        {
+            for (var prop in hdArray)
+            {
+                document.getElementById("repCostHD").value = hdArray[counter]["replacementCost"];
+                document.getElementById("suppNameHD").value = hdArray[counter]["supplierName"];
+                document.getElementById("serialNumberHD").value = hdArray[counter]["serialNumber"];
+                if(hdArray[counter].status === 1)
+                {
+                    radiobuttonHD[0].checked = true;
+                }
+                else 
+                {
+                    radiobuttonHD[1].checked = true;
+                }
+                document.getElementById("sizeHD").value = hdArray[counter]["size"];
+                document.getElementById("transRateHD").value = hdArray[counter]["transferRate"];
+                document.getElementById("platterSizeHD").value = hdArray[counter]["platterSize"];
+                document.getElementById("platterNumHD").value = hdArray[counter]["numOfPlatters"];
+            }
+        }
+        //create a method to update Hard Disk Properties
+        function updateHD()
+        {
+            //grabbed all the user input uder Hard Disk class
+            var repCostHD = document.getElementById("repCostHD").value;
+            var suppNameHD = document.getElementById("suppNameHD").value;
+            var serialNumberHD = document.getElementById("serialNumberHD").value;
+            var sizeHD = document.getElementById("sizeHD").value;
+            var transRateHD = document.getElementById("transRateHD").value;
+            var platterSizeHD = document.getElementById("platterSizeHD").value;
+            var platterNumHD = document.getElementById("platterNumHD").value;
+            var hdStatus = document.getElementById("radiobuttonHD").checked;
+
+            //reiterate the HDarray to access the property 
+            for (var prop in hdArray[counter])
+            {
+                hdArray[counter].replacementCost = parseFloat(repCostHD);
+                hdArray[counter].supplierName = suppNameHD;
+                hdArray[counter].serialNumber = serialNumberHD;
+                hdArray[counter]._status = (hdStatus === true ? 1:0);
+                hdArray[counter].size = sizeHD;
+                hdArray[counter].transferRate = transRateHD;
+                hdArray[counter].platterSize = platterSizeHD;
+                hdArray[counter].numOfPlatters = parseInt(platterNumHD);
+            }
+            alert ("Hard Disk Property updated!");
+        }
+         //create a method for nextHD
+         function nextHD()
+        {
+            if (counter < hdArray.length - 1)
+            {
+                counter++;
+                showHDProp();
+            }
+            else
+            {
+                alert("No more HARD DISK Properties to show!");
+            }
+        }
+        //create a method for prevHD
+        function previousHD()
+        {
+            if (counter > 0)
+            {
+                counter--;
+                showHDProp();
+            }
+            else
+            {
+                alert("No more HARD DISK to show if you click Previous! Please Press Next!");
+            }
+        }
+
+        //SSD UI
+        //Create a method for newSSD
+        function newSSD()
+        {
+            //grabbed all the user input uder SSD class
+            var repCostSSD = document.getElementById("repCostSSD").value;
+            var suppNameSSD = document.getElementById("suppNameSSD").value;
+            var serialNumberSSD = document.getElementById("serialNumberSSD").value;
+            var sizeSSD = document.getElementById("sizeSSD").value;
+            var transRateSSD = document.getElementById("transRateSSD").value;
+            var typeSSD = document.getElementById("typeSSD").value;
+            var wearLevel = document.getElementById("wearLevelSSD");
+            var wearLvlSelected = wearLevel.options[wearLevel.selectedIndex].value;
+            var ssdStatus = document.getElementById("radiobuttonSSD").checked;
+
+            //store the user input in the constructor of harddisk
+            var ssdObj = new SSD(repCostSSD, suppNameSSD, serialNumberSSD, ssdStatus, sizeSSD, transRateSSD, typeSSD, wearLvlSelected);
+
+            //push the ssdObj in the ssdArray
+            ssdArray.push(ssdObj);
+
+            if (ssdStatus === true)
+            {
+                ssdObj.enable = 1;
+            }
+            else
+            {
+                ssdObj.disable = 0;
+            }
+            for(var prop in ssdObj)
+            {
+                console.log(prop, ": ", ssdObj[prop]);
+            }
+            alert ("New SSD Added!");
+        }
+        //test the SSD object and SSD array
+        var ssdObj1 = new SSD(325.99, "Samsung SSD", "0123123", 1, "256MB", "100MB/sec", "Flash", true);
+        var ssdObj2 = new SSD(699.99, "ScandDisk SSD", "231412313", 0, "500MB", "200MB/sec", "DRAM", false);
+        var ssdObj3 = new SSD(599.99, "Sony SSD", "SRL102A2011", 1, "1GB", "500MB/sec", "SATA", true);
+        var ssdObj4 = new SSD(1999.99, "Dell M.2 SATA", "A1-244mA#214", 0, "5GB", "1GB/sec", "SSD", false);
+        var ssdObj5 = new SSD(3999.99, "Samsung EVo", "0000928471", 0, "1TB", "1.3GB/sec", "SSD", false);
+
+        for (var prop in ssdObj1, ssdObj2)
+        {
+            console.log(prop, ": ", ssdObj1[prop]);
+            console.log(prop, ": ", ssdObj2[prop]);
+            console.log(prop, ": ", ssdObj3[prop]);
+            console.log(prop, ": ", ssdObj4[prop]);
+            console.log(prop, ": ", ssdObj5[prop]);
+        }
+        //push the object to ssdArray
+        ssdArray.push(ssdObj1);
+        ssdArray.push(ssdObj2);
+        ssdArray.push(ssdObj3);
+        ssdArray.push(ssdObj4);
+        ssdArray.push(ssdObj5);
+        console.log(ssdArray);
+        //create a function to display SSD properties
+        function showSSDProp()
+        {
+            for (var prop in ssdArray)
+            {
+                document.getElementById("repCostSSD").value = ssdArray[counter]["replacementCost"];
+                document.getElementById("suppNameSSD").value = ssdArray[counter]["supplierName"];
+                document.getElementById("serialNumberSSD").value = ssdArray[counter]["serialNumber"];
+                if(ssdArray[counter].status === 1)
+                {
+                    radiobuttonSSD[0].checked = true;
+                }
+                else 
+                {
+                    radiobuttonSSD[1].checked = true;
+                }
+                document.getElementById("sizeSSD").value = ssdArray[counter]["size"];
+                document.getElementById("transRateSSD").value = ssdArray[counter]["transferRate"];
+                document.getElementById("typeSSD").value = ssdArray[counter]["type"];
+                var selectWL = document.getElementById("wearLevelSSD");
+                selectWL.value = ssdArray[counter]["wearLvl"];
+            }
+        }
+        //create a method to update SSD Properties
+        function updateSSD()
+        {
+            //grabbed all the user input uder SSD class
+            var repCostSSD = document.getElementById("repCostSSD").value;
+            var suppNameSSD = document.getElementById("suppNameSSD").value;
+            var serialNumberSSD = document.getElementById("serialNumberSSD").value;
+            var sizeSSD = document.getElementById("sizeSSD").value;
+            var transRateSSD = document.getElementById("transRateSSD").value;
+            var typeSSD = document.getElementById("typeSSD").value;
+            var wearLevel = document.getElementById("wearLevelSSD");
+            var wearLvlSelected = wearLevel.options[wearLevel.selectedIndex].value;
+            var ssdStatus = document.getElementById("radiobuttonSSD").checked;
+
+            //reiterate the ssdarray to access the property 
+            for (var prop in ssdArray[counter])
+            {
+                ssdArray[counter].replacementCost = parseFloat(repCostSSD);
+                ssdArray[counter].supplierName = suppNameSSD;
+                ssdArray[counter].serialNumber = serialNumberSSD;
+                ssdArray[counter]._status = (ssdStatus === true ? 1:0);
+                ssdArray[counter].size = sizeSSD;
+                ssdArray[counter].transferRate = transRateSSD;
+                ssdArray[counter].type = typeSSD;
+                ssdArray[counter].wearLvl = wearLvlSelected;
+            }
+            alert ("SSD Property updated!");
+        }
+         //create a method for nextHD
+         function nextSSD()
+        {
+            if (counter < ssdArray.length - 1)
+            {
+                counter++;
+                showSSDProp();
+            }
+            else
+            {
+                alert("No more SSD Properties to show!");
+            }
+        }
+        //create a method for prevHD
+        function previousSSD()
+        {
+            if (counter > 0)
+            {
+                counter--;
+                showSSDProp();
+            }
+            else
+            {
+                alert("No more SSD to show if you click Previous! Please Press Next!");
+            }
+        }
+        //end==========================================================
+    </script>
+    
+    </html>

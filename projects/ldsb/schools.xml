@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Source: https://en.wikipedia.org/wiki/List_of_schools_in_London,_Ontario [March 12, 2020] -->
+<London-Schools>
+  <Adult-Education>
+    <School short-name="G.A. Wheable" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>70 Jacqueline St</Address>
+      <Name>G.A. Wheable Adult Education Centre</Name>
+      <Coordinates x="482066.845" y="4757710.908" />
+      <Website>https://www.tvdsb.ca/en/parents/adult-and-continuing-education.aspx</Website>
+    </School>
+    <School short-name="Centre for Lifelong Learning" french-immersion="no" before-after-programs="no">
+      <Board>London District Catholic School Board</Board>
+      <Address>1230 King St</Address>
+      <Name>Centre for Lifelong Learning St. Patrick Campus</Name>
+      <Coordinates x="483095.5923" y="4760265.75" />
+      <Website>http://cfll.ldcsb.ca/</Website>
+    </School>
+  </Adult-Education>
+  <Elementary>
+    <School short-name="Lambeth" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>6820 Duffield St</Address>
+      <Name>Lambeth Public School</Name>
+      <Coordinates x="475702.9584" y="4751241.924" />
+      <Website>https://lambeth.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Aberdeen" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>556 Grey St</Address>
+      <Name>Aberdeen Public School</Name>
+      <Coordinates x="481260.0905" y="4758779.283" />
+      <Website>http://aberdeen.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Arthur Ford" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>617 Viscount Rd</Address>
+      <Name>Arthur Ford Public School</Name>
+      <Coordinates x="478003.0135" y="4755563" />
+      <Website>https://arthurford.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Arthur Stringer" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>43 Shaftesbury Ave</Address>
+      <Name>Arthur Stringer Public School</Name>
+      <Coordinates x="483050.2337" y="4755160.714" />
+      <Website>https://arthurstringer.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Ashley Oaks" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>121 Ashley Cres</Address>
+      <Name>Ashley Oaks Public School</Name>
+      <Coordinates x="480223.116" y="4753860.941" />
+      <Website>https://ashleyoaks.tvdsb.ca/</Website>
+    </School>
+    <School short-name="East Carling" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>814 Quebec St</Address>
+      <Name>East Carling Public School</Name>
+      <Coordinates x="481757.2144" y="4761198.337" />
+      <Website>https://eastcarling.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Bonaventure Meadows" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>141 Bonaventure Dr</Address>
+      <Name>Bonaventure Meadows Public School</Name>
+      <Coordinates x="487279.3313" y="4761415.591" />
+      <Website>https://bonaventure.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Byron Northview" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1370 Commissioners Rd W</Address>
+      <Name>Byron Northview Public School</Name>
+      <Coordinates x="472389.681" y="4756564.18" />
+      <Website>https://byronnorthview.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Byron Somerset" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>175 Whisperwood Ave</Address>
+      <Name>Byron Somerset Public School</Name>
+      <Coordinates x="473460.5029" y="4754961.041" />
+      <Website>https://byronsomerset.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Byron Southwood" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1379 Lola St</Address>
+      <Name>Byron Southwood Public School</Name>
+      <Coordinates x="472782.8155" y="4755405.011" />
+      <Website>https://byronsouthwood.tvdsb.ca/</Website>
+    </School>
+    <School short-name="C.C. Carrothers" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>360 Chippendale Cres</Address>
+      <Name>C.C. Carrothers Public School</Name>
+      <Coordinates x="482904.5669" y="4756677.226" />
+      <Website>https://carrothers.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Chippewa" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1035 Chippewa Dr</Address>
+      <Name>Chippewa Public School</Name>
+      <Coordinates x="484010.4946" y="4763998.226" />
+      <Website>http://chippewa.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Clara Brenton" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1025 St Croix Ave</Address>
+      <Name>Clara Brenton Public School</Name>
+      <Coordinates x="474288.7303" y="4758642.989" />
+      <Website>https://clarabrenton.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Cleardale" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>780 Dulaney Dr</Address>
+      <Name>Cleardale Public School</Name>
+      <Coordinates x="480391.8033" y="4754799.676" />
+      <Website>https://cleardale.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Ealing" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>840 Hamilton Rd</Address>
+      <Name>Ealing Public School</Name>
+      <Coordinates x="483683.0191" y="4758486.594" />
+      <Website>https://ealing.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Emily Carr" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>44 Hawthorne Rd</Address>
+      <Name>Emily Carr Public School</Name>
+      <Coordinates x="474538.6862" y="4761870.809" />
+      <Website>https://emilycarr.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Jeanne Sauve" french-immersion="yes" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>215 Wharncliffe Rd N</Address>
+      <Name>Jeanne Sauve - French Immersion - Public School</Name>
+      <Coordinates x="478503.0929" y="4759830.835" />
+      <Website>https://jeannesauve.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Evelyn Harrison" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>50 Tewksbury Cres</Address>
+      <Name>Evelyn Harrison Public School</Name>
+      <Coordinates x="484062.1579" y="4763410.516" />
+      <Website>https://evelynharrison.tvdsb.ca/</Website>
+    </School>
+    <School short-name="F.D. Roosevelt" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>560 Second St</Address>
+      <Name>F.D. Roosevelt Public School</Name>
+      <Coordinates x="484226.6735" y="4761936.963" />
+      <Website>https://fdr.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Fairmont" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1040 Hamilton Rd</Address>
+      <Name>Fairmont Public School</Name>
+      <Coordinates x="484752.8939" y="4758330.09" />
+      <Website>https://fairmont.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Glen Cairn" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>53 Frontenac Rd</Address>
+      <Name>Glen Cairn Public School</Name>
+      <Coordinates x="483309.2085" y="4756065.052" />
+      <Website>https://glencairn.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Hillcrest" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1231 Fuller St</Address>
+      <Name>Hillcrest Public School</Name>
+      <Coordinates x="481767.0487" y="4763303.742" />
+      <Website>https://hillcrest.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Jack Chambers" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1650 Hastings Dr</Address>
+      <Name>Jack Chambers Public School</Name>
+      <Coordinates x="478073.6838" y="4764870.778" />
+      <Website>http://jackchambers.tvdsb.ca/</Website>
+    </School>
+    <School short-name="John Dearness" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>555 Sanatorium Rd</Address>
+      <Name>John Dearness Public School</Name>
+      <Coordinates x="473062.4644" y="4757032.617" />
+      <Website>https://johndearness.tvdsb.ca/</Website>
+    </School>
+    <School short-name="John P. Robarts" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>84 Bow St</Address>
+      <Name>John P. Robarts Public School</Name>
+      <Coordinates x="486963.2896" y="4759676.483" />
+      <Website>https://robarts.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Kensal Park" french-immersion="yes" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>328 Springbank Dr</Address>
+      <Name>Kensal Park - French Immersion - Public School</Name>
+      <Coordinates x="477312.2279" y="4757437.365" />
+      <Website>https://kensalpark.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Knollwood Park" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>70 Gammage St</Address>
+      <Name>Knollwood Park Public School</Name>
+      <Coordinates x="481269.875" y="4761644.946" />
+      <Website>https://knollwoodpark.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Lord Elgin" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1100 Victoria Dr</Address>
+      <Name>Lord Elgin Public School</Name>
+      <Coordinates x="481692.2176" y="4762354.649" />
+      <Website>http://lordelgin.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Lord Nelson" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1990 Royal Cres</Address>
+      <Name>Lord Nelson Public School</Name>
+      <Coordinates x="486367.9899" y="4760720.281" />
+      <Website>https://lordnelson.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Lord Roberts" french-immersion="yes" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>440 Princess Ave</Address>
+      <Name>Lord Roberts - French Immersion - Public School</Name>
+      <Coordinates x="480444.7671" y="4759870.964" />
+      <Website>https://lordroberts.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Masonville" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>25 Hillview Blvd</Address>
+      <Name>Masonville Public School</Name>
+      <Coordinates x="476810.6807" y="4763692.374" />
+      <Website>https://masonville.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Mountsfield" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>8 Mountsfield Dr</Address>
+      <Name>Mountsfield Public School</Name>
+      <Coordinates x="480120.0736" y="4756306.878" />
+      <Website>https://mountsfield.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Nicholas Wilson" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>927 Osgoode Dr</Address>
+      <Name>Nicholas Wilson Public School</Name>
+      <Coordinates x="482245.3578" y="4754068.283" />
+      <Website>https://nicholaswilson.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Northbrae" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>335 Belfield St</Address>
+      <Name>Northbrae Public School</Name>
+      <Coordinates x="480385.3658" y="4762640.746" />
+      <Website>https://northbrae.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Northridge" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>25 Mclean Dr</Address>
+      <Name>Northridge Public School</Name>
+      <Coordinates x="480872.4216" y="4764921.962" />
+      <Website>https://northridge.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Orchard Park" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>50 Wychwood Pk</Address>
+      <Name>Orchard Park Public School</Name>
+      <Coordinates x="476208.2883" y="4760944.837" />
+      <Website>https://orchardpark.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Eagle Heights" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>284 Oxford St W</Address>
+      <Name>Eagle Heights Public School</Name>
+      <Coordinates x="477544.2366" y="4759478.798" />
+      <Website>https://eagleheights.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Prince Charles" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1601 Wavell St</Address>
+      <Name>Prince Charles Public School</Name>
+      <Coordinates x="484653.7651" y="4760060.231" />
+      <Website>https://princecharles.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Princess Anne" french-immersion="yes" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>191 Dawn Dr</Address>
+      <Name>Princess Anne - French - Immersion - Public School</Name>
+      <Coordinates x="485297.3287" y="4759911.173" />
+      <Website>https://princessanne.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Princess Elizabeth" french-immersion="yes" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>247 Thompson Rd</Address>
+      <Name>Princess Elizabeth - French Immersion - Public School</Name>
+      <Coordinates x="481973.3775" y="4757271.779" />
+      <Website>https://princesselizabeth.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Rick Hansen" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>70 Ponderosa Cres</Address>
+      <Name>Rick Hansen Public School</Name>
+      <Coordinates x="480993.9041" y="4753872.014" />
+      <Website>https://rickhansen.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Riverside" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>550 Pinetree Dr</Address>
+      <Name>Riverside Public School</Name>
+      <Coordinates x="475152.6756" y="4757964.278" />
+      <Website>https://riverside.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Ryerson" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>940 Waterloo St</Address>
+      <Name>Ryerson Public School</Name>
+      <Coordinates x="479488.739" y="4761380.664" />
+      <Website>https://ryerson.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Sir G.E. Cartier" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>695 Chiddington Ave</Address>
+      <Name>Sir Georges-Etienne Cartier Public School</Name>
+      <Coordinates x="480878.0183" y="4755695.498" />
+      <Website>https://sirgeorges.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Sir Isaac Brock" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>80 St Lawrence Blvd</Address>
+      <Name>Sir Isaac Brock Public School</Name>
+      <Coordinates x="478611.615" y="4754619.585" />
+      <Website>https://brock.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Sir John A. MacDonald" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1150 Landor St</Address>
+      <Name>Sir John A. MacDonald Public School</Name>
+      <Coordinates x="482206.4818" y="4762092.819" />
+      <Website>https://macdonald.tvdsb.ca/</Website>
+    </School>
+    <School short-name="St. George" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>782 Waterloo St</Address>
+      <Name>St. George's Public School</Name>
+      <Coordinates x="479772.7447" y="4760643.844" />
+      <Website>https://stgeorges.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Stoneybrook" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1460 Stoneybrook Cres</Address>
+      <Name>Stoneybrook Public School</Name>
+      <Coordinates x="478695.4257" y="4764020.002" />
+      <Website>https://stoneybrook.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Tecumseh" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>401 Tecumseh Ave E</Address>
+      <Name>Tecumseh Public School</Name>
+      <Coordinates x="480294.0745" y="4757417.515" />
+      <Website>https://tecumseh.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Trafalgar" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>919 Trafalgar St</Address>
+      <Name>Trafalgar Public School</Name>
+      <Coordinates x="482616.0882" y="4758567.638" />
+      <Website>https://trafalgar.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Tweedsmuir" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>349 Tweedsmuir Ave</Address>
+      <Name>Tweedsmuir Public School</Name>
+      <Coordinates x="485387.5271" y="4758702.376" />
+      <Website>https://tweedsmuir.tvdsb.ca/</Website>
+    </School>
+    <School short-name="University Heights" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>27 Ford Cres</Address>
+      <Name>University Heights Public School</Name>
+      <Coordinates x="477265.93" y="4760617.205" />
+      <Website>https://universityheights.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Victoria" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>130 Wharncliffe Rd S</Address>
+      <Name>Victoria Public School</Name>
+      <Coordinates x="478684.974" y="4757890.766" />
+      <Website>http://victoria.tvdsb.ca/</Website>
+    </School>
+    <School short-name="W. Sherwood Fox" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>660 Steeplechase Dr</Address>
+      <Name>W. Sherwood Fox Public School</Name>
+      <Coordinates x="476844.6342" y="4755259.633" />
+      <Website>https://sherwoodfox.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Westdale" french-immersion="yes" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1050 Plantation Rd</Address>
+      <Name>West Oaks- French Immersion- Public School</Name>
+      <Coordinates x="474422.7512" y="4757747.52" />
+      <Website>https://westoaks.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Westminster Central" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>2835 Westminster Dr</Address>
+      <Name>Westminster Central Public School</Name>
+      <Coordinates x="483749.9246" y="4749937.59" />
+      <Website>https://westminstercentral.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Westmount" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1011 Viscount Rd</Address>
+      <Name>Westmount Public School</Name>
+      <Coordinates x="476123.699" y="4754716.782" />
+      <Website>https://westmount.tvdsb.ca/</Website>
+    </School>
+    <School short-name="White Oaks" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>565 Bradley Ave</Address>
+      <Name>White Oaks Public School</Name>
+      <Coordinates x="481049.6395" y="4753432.098" />
+      <Website>https://whiteoaks.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Wilfrid Jury" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>950 Lawson Rd</Address>
+      <Name>Wilfrid Jury Public School</Name>
+      <Coordinates x="475055.6599" y="4760498.243" />
+      <Website>https://wilfridjury.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Wilton Grove" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>626 Osgoode Dr</Address>
+      <Name>Wilton Grove Public School</Name>
+      <Coordinates x="483057.8433" y="4754301.477" />
+      <Website>https://wiltongrove.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Woodland Heights" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>474 Springbank Dr</Address>
+      <Name>Woodland Heights Public School</Name>
+      <Coordinates x="476617.5047" y="4756955.114" />
+      <Website>https://woodlandheights.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Wortley Road" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>301 Wortley Rd</Address>
+      <Name>Wortley Road Public School</Name>
+      <Coordinates x="479580.2152" y="4757141.251" />
+      <Website>https://wortley.tvdsb.ca/</Website>
+    </School>
+    <School short-name="L.B. Pearson" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>795 Trafalgar St</Address>
+      <Name>Lester B. Pearson School For The Arts</Name>
+      <Coordinates x="482173.3447" y="4758391.25" />
+      <Website>https://pearson.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Robarts School for the Deaf" french-immersion="no" before-after-programs="no">
+      <Board>Provincial</Board>
+      <Address>1515 Cheapside St</Address>
+      <Name>Robarts School for the Deaf</Name>
+      <Coordinates x="482983.8692" y="4762310.176" />
+      <Website>https://pdsbnet.ca/en/schools/robarts/</Website>
+    </School>
+    <School short-name="Ecole elementaire catholique Frere-Andre" french-immersion="no" before-after-programs="no">
+      <Board>Conseil Scolaire de District des EcolesCatholique</Board>
+      <Address>400 Base Line Rd W</Address>
+      <Name>Ecole elementaire catholique Frere-Andre - French First Language Catholic Elementary School</Name>
+      <Coordinates x="477261.0464" y="4756777.372" />
+      <Website>https://ecolescatholiquesontario.ca/places/conseil-scolaire-catholique-providence/ecole-elementaire-catholique-frere-andre/</Website>
+    </School>
+    <School short-name="Ecole elementaire catholique Sainte-Jeanne-d'Arc" french-immersion="no" before-after-programs="no">
+      <Board>Conseil Scolaire de District des EcolesCatholique</Board>
+      <Address>35 Fallons Lane</Address>
+      <Name>Ecole elementaire catholique Sainte-Jeanne-d'Arc - French First Language Catholic Elementary School</Name>
+      <Coordinates x="483475.2721" y="4763650.826" />
+      <Website>https://ecolescatholiquesontario.ca/places/conseil-scolaire-catholique-providence/ecole-elementaire-catholique-sainte-jeanne-darc/</Website>
+    </School>
+    <School short-name="Acadamie de la Tamise" french-immersion="no" before-after-programs="no">
+      <Board>Conseil scolaire Viamonde</Board>
+      <Address>1260 Dundas St</Address>
+      <Name>Acadamie de la Tamise - French First Language Public Elementary School</Name>
+      <Coordinates x="483293.8296" y="4760527.998" />
+      <Website>https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/academie-de-la-tamise/</Website>
+    </School>
+    <School short-name="Ecole elementaire catholique Saint-Jean-de-Brebeuf" french-immersion="no" before-after-programs="no">
+      <Board>Conseil Scolaire de District des EcolesCatholique</Board>
+      <Address>270 Chelton Rd</Address>
+      <Name>Ecole elementaire catholique Saint-Jean-de-Brebeuf - French First Language Catholic Elementary School</Name>
+      <Coordinates x="485601.2357" y="4756195.776" />
+      <Website>https://ecolescatholiquesontario.ca/places/conseil-scolaire-catholique-providence/ecole-elementaire-catholique-saint-jean-de-brebeuf/</Website>
+    </School>
+    <School short-name="Ecole elementaire Marie-Curie" french-immersion="no" before-after-programs="no">
+      <Board>Conseil scolaire Viamonde</Board>
+      <Address>40 Hunt Club Dr</Address>
+      <Name>Ecole elementaire Marie-Curie - French First Language Public Elementary School</Name>
+      <Coordinates x="473257.9332" y="4758087.083" />
+      <Website>https://marie-curie.cepeo.on.ca/</Website>
+    </School>
+    <School short-name="St. Kateri" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>220 Sunnyside Dr</Address>
+      <Name>St. Kateri Catholic School</Name>
+      <Coordinates x="478473.1847" y="4763481.149" />
+      <Website>https://kat.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Blessed Sacrament" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1063 Oxford St E</Address>
+      <Name>Blessed Sacrament Catholic School</Name>
+      <Coordinates x="482225.9297" y="4761404.727" />
+      <Website>https://sac.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Holy Family" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>329 Hudson Dr</Address>
+      <Name>Holy Family Catholic School</Name>
+      <Coordinates x="487242.945" y="4759864.903" />
+      <Website>https://fal.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Holy Rosary" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>268 Herkimer St</Address>
+      <Name>Holy Rosary Catholic School</Name>
+      <Coordinates x="481209.3784" y="4757098.498" />
+      <Website>https://ros.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Jean Vanier" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1019 Viscount Rd</Address>
+      <Name>Jean Vanier Catholic School</Name>
+      <Coordinates x="476038.708" y="4754796.449" />
+      <Website>https://van.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Notre Dame" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>767 Valetta St</Address>
+      <Name>Notre Dame Catholic School</Name>
+      <Coordinates x="475471.8439" y="4758134.343" />
+      <Website>https://dam.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Anne" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1366 Huron St</Address>
+      <Name>St. Anne Catholic School</Name>
+      <Coordinates x="482660.8948" y="4763197.34" />
+      <Website>https://ann.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Anthony" french-immersion="yes" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1380 Ernest Ave</Address>
+      <Name>St. Anthony - French - Immersion Catholic School</Name>
+      <Coordinates x="480814.6478" y="4753211.232" />
+      <Website>https://ant.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Bernadette" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>155 Tweedsmuir Ave</Address>
+      <Name>St. Bernadette Catholic School</Name>
+      <Coordinates x="485060.4311" y="4758809.075" />
+      <Website>https://ber.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Francis" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>690 Osgoode Dr</Address>
+      <Name>St. Francis Catholic School</Name>
+      <Coordinates x="483006.9281" y="4754593.211" />
+      <Website>https://frl.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. George" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>375 Lynden Cres</Address>
+      <Name>St. George Catholic School</Name>
+      <Coordinates x="473391.7593" y="4755962.784" />
+      <Website>https://geo.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. John" french-immersion="yes" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1212 Coronation Dr</Address>
+      <Name>St. John Catholic - French Immersion - Catholic School</Name>
+      <Coordinates x="473634.1485" y="4760361.828" />
+      <Website>https://jhn.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Jude" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>690 Viscount Rd</Address>
+      <Name>St. Jude Catholic School</Name>
+      <Coordinates x="478036.1684" y="4755175.461" />
+      <Website>https://jul.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Marguerite d'Youville" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>170 Hawthorne Rd</Address>
+      <Name>St. Marguerite d'Youville Catholic School</Name>
+      <Coordinates x="473844.9215" y="4761610.225" />
+      <Website>https://mrg.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Mark" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1440 Glenora Dr</Address>
+      <Name>St. Mark Catholic School</Name>
+      <Coordinates x="480786.3299" y="4764744.14" />
+      <Website>https://mrk.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Martin" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>140 Duchess Ave</Address>
+      <Name>St. Martin Catholic School</Name>
+      <Coordinates x="479313.0135" y="4757495.32" />
+      <Website>https://mrt.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Mary Choir" french-immersion="no" before-after-programs="no">
+      <Board>London District Catholic School Board</Board>
+      <Address>347 Lyle St</Address>
+      <Name>St. Mary Choir Catholic School</Name>
+      <Coordinates x="481373.067" y="4759497.429" />
+      <Website>https://mal.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Michael" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>926 Maitland St</Address>
+      <Name>St. Michael Catholic School</Name>
+      <Coordinates x="480059.2453" y="4761302.753" />
+      <Website>https://mil.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Paul" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1090 Guildwood Blvd</Address>
+      <Name>St. Paul Catholic School</Name>
+      <Coordinates x="474026.2593" y="4758403.435" />
+      <Website>https://pll.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Pius X" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>255 Vancouver St</Address>
+      <Name>St. Pius X Catholic School</Name>
+      <Coordinates x="484897.1492" y="4760206.222" />
+      <Website>https://piu.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Sebastian" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>225 Cairn St</Address>
+      <Name>St. Sebastian Catholic School</Name>
+      <Coordinates x="483214.8899" y="4756987.1" />
+      <Website>https://seb.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Theresa" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>108 Fairlane Ave</Address>
+      <Name>St. Theresa Catholic School</Name>
+      <Coordinates x="472325.6209" y="4755137.587" />
+      <Website>https://the.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Thomas More" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>18 Wychwood Pk</Address>
+      <Name>St. Thomas More Catholic School</Name>
+      <Coordinates x="476413.9798" y="4760729.207" />
+      <Website>https://tho.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Sir Arthur Carty" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1655 Ernest Ave</Address>
+      <Name>Sir Arthur Carty Catholic School</Name>
+      <Coordinates x="480489.9107" y="4753914.628" />
+      <Website>https://crt.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Catherine of Siena" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>2140 Quarrier Rd</Address>
+      <Name>St. Catherine of Siena Catholic School</Name>
+      <Coordinates x="476235.0792" y="4764365.091" />
+      <Website>https://cat.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Stoney Creek" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1335 Nicole Ave</Address>
+      <Name>Stoney Creek Public School</Name>
+      <Coordinates x="480275.2308" y="4766005.033" />
+      <Website>https://stoneycreek.tvdsb.ca/</Website>
+    </School>
+    <School short-name="London Islamic School" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>151 Oxford St W</Address>
+      <Name>London Islamic School Private</Name>
+      <Coordinates x="477943.9184" y="4759808.043" />
+      <Website>http://www.londonislamicschool.com/</Website>
+    </School>
+    <School short-name="The London School" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>151 Oxford St W</Address>
+      <Name>The London School Private</Name>
+      <Coordinates x="479701.3109" y="4759915.093" />
+      <Website>http://www.thelondonschool.ca/</Website>
+    </School>
+    <School short-name="London Waldorf" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>7 Beaufort St</Address>
+      <Name>London Waldorf Private School</Name>
+      <Coordinates x="478527.6692" y="4760442.401" />
+      <Website>https://www.londonwaldorf.ca/</Website>
+    </School>
+    <School short-name="Mathews Hall" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>1370 Oxford St W</Address>
+      <Name>Mathews Hall Private School</Name>
+      <Coordinates x="472439.9634" y="4757548.332" />
+      <Website>https://matthewshall.ca/</Website>
+    </School>
+    <School short-name="Montessori Academy of London" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>711 Waterloo St</Address>
+      <Name>Montessori Academy of London Private School</Name>
+      <Coordinates x="479799.7842" y="4760335.834" />
+      <Website>https://montessori.on.ca/</Website>
+    </School>
+    <School short-name="Ecole Elementaire La Pommeraie" french-immersion="no" before-after-programs="no">
+      <Board>Conseil scolaire Viamonde</Board>
+      <Address>3500 Settlement Trail</Address>
+      <Name>Ecole Elementaire La Pommeraie - French First Language Public Elementary School</Name>
+      <Coordinates x="475081.5545" y="4753327.402" />
+      <Website>https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-elementaire-la-pommeraie/</Website>
+    </School>
+    <School short-name="London Christian" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>202 Clarke Rd</Address>
+      <Name>London Christian Private School</Name>
+      <Coordinates x="486141.4885" y="4760344.989" />
+      <Website>https://londonchristian.ca/</Website>
+    </School>
+    <School short-name="Sir Arthur Currie" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>2435 Buroak Dr</Address>
+      <Name>Sir Arthur Currie Public School</Name>
+      <Coordinates x="473537.9537" y="4763614.781" />
+      <Website>https://sirarthurcurrie.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Cedar Hollow" french-immersion="no" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1800 Cedarhollow Blvd</Address>
+      <Name>Cedar Hollow Public School</Name>
+      <Coordinates x="482719.9663" y="4765645.673" />
+      <Website>https://cedarhollow.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Infinity School" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>115 Askin St</Address>
+      <Name>Infinity School Private</Name>
+      <Coordinates x="479227.5101" y="4757847.206" />
+      <Website>https://www.infinityschool.ca/</Website>
+    </School>
+    <School short-name="Adventist Christian" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>805 Shelborne St</Address>
+      <Name>Adventist Christian School Private</Name>
+      <Coordinates x="483646.619" y="4756718.265" />
+      <Website>http://www.aceslondon.ca/</Website>
+    </School>
+    <School short-name="Al-Taqwa Academy" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>1837 Churchill Ave</Address>
+      <Name>Al-Taqwa Academy Private School</Name>
+      <Coordinates x="485476.0489" y="4760758.92" />
+      <Website>http://www.altaqwa.org/</Website>
+    </School>
+    <School short-name="Louise Arbour" french-immersion="yes" before-after-programs="yes">
+      <Board>Thames Valley District School Board</Board>
+      <Address>365 Belfield St</Address>
+      <Name>Louise Arbour - French Immersion - Public School</Name>
+      <Coordinates x="480316.8024" y="4762770.731" />
+      <Website>https://louisearbour.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Covenant Christian" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>7 Howard Ave</Address>
+      <Name>Covenant Christian Private School</Name>
+      <Coordinates x="475885.9738" y="4750469.968" />
+      <Website>https://www.ccslondon.org/</Website>
+    </School>
+    <School short-name="St. Nicholas" french-immersion="no" before-after-programs="yes">
+      <Board>London District Catholic School Board</Board>
+      <Address>1956 Shore rd</Address>
+      <Name>St. Nicholas Catholic School</Name>
+      <Coordinates x="470416.5603" y="4757463.742" />
+      <Website>https://nic.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Byron Woods Montessori" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>1468 Commissioners Rd W</Address>
+      <Name>Byron Woods Montessori Private School</Name>
+      <Coordinates x="471799.6616" y="4756794.987" />
+      <Website>https://bwms.ca/</Website>
+    </School>
+    <School short-name="Christian Academy of Western Ontario" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>85 Charles St</Address>
+      <Name>Christian Academy of Western Ontario Private School</Name>
+      <Coordinates x="478222.7589" y="4759124.479" />
+      <Website>http://www.londonchristianacademy.ca/</Website>
+    </School>
+    <School short-name="London Community Hebrew Day School" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>536 Huron St</Address>
+      <Name>London Community Hebrew Day School Private</Name>
+      <Coordinates x="480022.0174" y="4762359.678" />
+      <Website>http://www.lchds.ca/</Website>
+    </School>
+  </Elementary>
+  <Post-Secondary>
+    <School short-name="Western University" french-immersion="no" before-after-programs="no">
+      <Board>None</Board>
+      <Address>1151 Richmond St</Address>
+      <Name>Western University</Name>
+      <Coordinates x="477667.8414" y="4761833.733" />
+      <Website>https://www.uwo.ca/</Website>
+    </School>
+    <School short-name="Brescia University College" french-immersion="no" before-after-programs="no">
+      <Board>None</Board>
+      <Address>1285 Western Rd</Address>
+      <Name>Brescia University College</Name>
+      <Coordinates x="476945.562" y="4761320.34" />
+      <Website>http://brescia.uwo.ca/</Website>
+    </School>
+    <School short-name="Fanshawe College" french-immersion="no" before-after-programs="no">
+      <Board>None</Board>
+      <Address>1001 Fanshawe College Blvd</Address>
+      <Name>Fanshawe College</Name>
+      <Coordinates x="483834.966" y="4762179.104" />
+      <Website>https://www.fanshawec.ca/</Website>
+    </School>
+    <School short-name="Huron University College" french-immersion="no" before-after-programs="no">
+      <Board>None</Board>
+      <Address>1349 Western Rd</Address>
+      <Name>Huron University College</Name>
+      <Coordinates x="477347.7697" y="4761841.541" />
+      <Website>https://huronatwestern.ca/</Website>
+    </School>
+    <School short-name="King's University College" french-immersion="no" before-after-programs="no">
+      <Board>None</Board>
+      <Address>1070 Waterloo St</Address>
+      <Name>King's University College</Name>
+      <Coordinates x="479054.4254" y="4762210.738" />
+      <Website>https://www.kings.uwo.ca/</Website>
+    </School>
+  </Post-Secondary>
+  <Pre-School>
+    <School short-name="Gibbons Park Montessori" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>29 Victoria St</Address>
+      <Name>Gibbons Park Montessori Private School</Name>
+      <Coordinates x="478120.7488" y="4760883.317" />
+      <Website>http://gibbonsparkmontessori.com/</Website>
+    </School>
+  </Pre-School>
+  <Secondary>
+    <School short-name="Banting" french-immersion="yes" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>125 Sherwood Forest Sq</Address>
+      <Name>Sir Frederick Banting - French Immersion - Secondary School</Name>
+      <Coordinates x="475124.4959" y="4761083.953" />
+      <Website>https://banting.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Beal" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>525 Dundas St</Address>
+      <Name>H. B. Beal Secondary School</Name>
+      <Coordinates x="480835.1933" y="4759379.125" />
+      <Website>https://beal.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Central" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>509 Waterloo St</Address>
+      <Name>Central Secondary School</Name>
+      <Coordinates x="480030.2426" y="4759598.6" />
+      <Website>https://central.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Clarke Road" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>300 Clarke Rd</Address>
+      <Name>Clarke Road Secondary School</Name>
+      <Coordinates x="485992.2845" y="4760799.159" />
+      <Website>https://clarkeroad.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Laurier" french-immersion="yes" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>450 Millbank Dr</Address>
+      <Name>Sir Wilfred Laurier - French - Immersion Secondary School</Name>
+      <Coordinates x="483200.2596" y="4754921.434" />
+      <Website>https://laurier.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Lucas" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>656 Tennent Ave</Address>
+      <Name>A. B. Lucas Secondary School</Name>
+      <Coordinates x="479855.269" y="4764493.148" />
+      <Website>https://lucas.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Montcalm" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1350 Highbury Ave N</Address>
+      <Name>Montcalm Secondary School</Name>
+      <Coordinates x="482351.2633" y="4763575.534" />
+      <Website>https://montcalm.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Oakridge" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>1040 Oxford St W</Address>
+      <Name>Oakridge Secondary School</Name>
+      <Coordinates x="474414.0195" y="4758263.258" />
+      <Website>https://oakridge.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Saunders" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>941 Viscount Rd</Address>
+      <Name>Saunders Secondary School</Name>
+      <Coordinates x="476226.8578" y="4754837.653" />
+      <Website>https://saunders.tvdsb.ca/</Website>
+    </School>
+    <School short-name="South" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>371 Tecumseh Ave E</Address>
+      <Name>London South Collegiate Institute</Name>
+      <Coordinates x="480183.0669" y="4757419.858" />
+      <Website>https://south.tvdsb.ca/</Website>
+    </School>
+    <School short-name="B. Davidson" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>785 Trafalgar St</Address>
+      <Name>B. Davidson Seconday School</Name>
+      <Coordinates x="482099.3808" y="4758351.932" />
+      <Website>https://bdavison.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Westminster" french-immersion="no" before-after-programs="no">
+      <Board>Thames Valley District School Board</Board>
+      <Address>230 Base Line Rd W</Address>
+      <Name>Westminster Secondary School</Name>
+      <Coordinates x="477380.5859" y="4756236.329" />
+      <Website>https://westminster.tvdsb.ca/</Website>
+    </School>
+    <School short-name="Ecole Secondaire Gabriel-Dumont" french-immersion="no" before-after-programs="no">
+      <Board>Conseil Scolaire Viamonde</Board>
+      <Address>2463 Evans Blvd</Address>
+      <Name>Ecole Secondaire Gabriel-Dumont - French First Language Secondary School</Name>
+      <Coordinates x="485997.9578" y="4755434.961" />
+      <Website>https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-secondaire-gabriel-dumont/</Website>
+    </School>
+    <School short-name="Ecole Secondaire Catholique Monseigneur-Bruyere" french-immersion="no" before-after-programs="no">
+      <Board>Conseil Scolaire de district des EcolesCatholique</Board>
+      <Address>920 Huron St</Address>
+      <Name>Ecole Secondaire Catholique Monseigneur-Bruyere - French First Language Catholic Secondary School</Name>
+      <Coordinates x="481060.772" y="4762560.298" />
+      <Website>https://ecolescatholiquesontario.ca/places/conseil-scolaire-catholique-providence/ecole-secondaire-catholique-monseigneur-bruyere/</Website>
+    </School>
+    <School short-name="Catholic Central" french-immersion="no" before-after-programs="no">
+      <Board>London District Catholic School Board</Board>
+      <Address>450 Dundas St</Address>
+      <Name>Catholic Central High School</Name>
+      <Coordinates x="480460.4461" y="4759448.281" />
+      <Website>https://cch.ldcsb.ca/</Website>
+    </School>
+    <School short-name="John Paul II" french-immersion="no" before-after-programs="no">
+      <Board>London District Catholic School Board</Board>
+      <Address>1300 Oxford St E</Address>
+      <Name>John Paul II Catholic Secondary School</Name>
+      <Coordinates x="483012.5162" y="4761999.458" />
+      <Website>http://jp2.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Regina Mundi College" french-immersion="no" before-after-programs="no">
+      <Board>London District Catholic School Board</Board>
+      <Address>5250 Wellington Rd S</Address>
+      <Name>Regina Mundi Catholic College</Name>
+      <Coordinates x="483538.5248" y="4749092.949" />
+      <Website>http://rmc.ldcsb.ca/</Website>
+    </School>
+    <School short-name="St. Thomas Aquinas" french-immersion="no" before-after-programs="no">
+      <Board>London District Catholic School Board</Board>
+      <Address>1360 Oxford St W</Address>
+      <Name>St. Thomas Aquinas Catholic Secondary School</Name>
+      <Coordinates x="472714.8163" y="4757435.631" />
+      <Website>https://sta.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Mother Teresa" french-immersion="yes" before-after-programs="no">
+      <Board>London District Catholic School Board</Board>
+      <Address>1065 Sunningdale Rd E</Address>
+      <Name>Mother Teresa Catholic - With French Immersion - Secondary School</Name>
+      <Coordinates x="479462.2629" y="4766238.61" />
+      <Website>http://mts.ldcsb.ca/</Website>
+    </School>
+    <School short-name="Robarts School for the Deaf" french-immersion="no" before-after-programs="no">
+      <Board>Provincial</Board>
+      <Address>1515 Cheapside St</Address>
+      <Name>Robarts School for the Deaf</Name>
+      <Coordinates x="482983.8692" y="4762310.176" />
+      <Website>https://pdsbnet.ca/en/schools/robarts/</Website>
+    </School>
+    <School short-name="St. Andre Bessette" french-immersion="no" before-after-programs="no">
+      <Board>London District Catholic School Board</Board>
+      <Address>2727 Tokala Trail</Address>
+      <Name>St. Andre Bessette Catholic Secondary School</Name>
+      <Coordinates x="473218.2875" y="4762542.816" />
+      <Website>https://sab.ldcsb.ca/</Website>
+    </School>
+    <School short-name="London District Christian" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>24 Braesyde Ave</Address>
+      <Name>London District Christian Private Secondary School</Name>
+      <Coordinates x="486103.7628" y="4758048.952" />
+      <Website>http://londonchristianhigh.ca/</Website>
+    </School>
+    <School short-name="Al-Taqwa Academy" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>1837 Churchill Ave</Address>
+      <Name>Al-Taqwa Academy Private School</Name>
+      <Coordinates x="485464.9364" y="4760786.701" />
+      <Website>http://www.altaqwa.org/</Website>
+    </School>
+    <School short-name="Blyth Academy - London" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>441 Ridout St N</Address>
+      <Name>Blyth Academy - London Private School</Name>
+      <Coordinates x="479229.3495" y="4759034.541" />
+      <Website>https://blytheducation.com/blyth-academy/london/</Website>
+    </School>
+    <School short-name="London International Academy" french-immersion="no" before-after-programs="no">
+      <Board>Private</Board>
+      <Address>365 Richmond St</Address>
+      <Name>London International Academy Private School</Name>
+      <Coordinates x="479683.0061" y="4758885.99" />
+      <Website>https://lia-edu.ca/</Website>
+    </School>
+  </Secondary>
+</London-Schools>
+
+
+

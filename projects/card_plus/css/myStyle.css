@@ -1,0 +1,238 @@
+body, header, main, #wrap, section, footer {
+    display: block;
+}
+
+h1, nav a {
+    color: #917949;
+    font-weight: bolder;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/dryclean.jpg);
+    background-color: #FAF8F9;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: gainsboro;
+    z-index: 4;
+    box-shadow: 1px 4px 5px #888888;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1%;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 3px 5px 6px #A78B63;
+    padding: 35px 40px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+nav a:hover {
+    color: #FAF8F9;
+    background-color: #101F22;
+    border-radius: 12px;
+}
+main {
+    float: left;
+}
+#wrap {
+    position: absolute;
+    padding-top: 90px;
+    width: 70%;
+    right: 6%;
+    background-color: #FAF8F9;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 3px 5px 6px #A78B63;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3B3B3B;
+    margin-left: 3%;
+    font-size: 30px;
+}
+
+section p {
+    text-align: center;
+    font-size: 26px;
+    color: #3B3B3B;
+}
+
+#indent {
+    margin: 2% 3% 2% 7%;
+    line-height: 1.5;
+    font-size: 90%;
+    word-spacing: .03em;
+}
+
+.shopPic {
+    height: 70%;
+    width: 80%;
+    padding: .05%;
+    background-color: #917949;
+    box-shadow: 2px 5px 3px #888888;
+    border-radius: 45px;
+}
+
+.myButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 45px;
+    -webkit-transition-duration: 0.4s;
+}
+
+.myButton:hover {
+    background-color: #101F22;
+    color: white;
+}
+
+.icons {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#h2mid {
+    text-align: center;
+}
+
+#gallery {
+    text-align: center;
+}
+
+.galleryPic {
+    width: 20%;
+    height: 30%;
+    padding: 5px;
+    background-color: green;
+    border: 2px solid #917949;
+    border-radius: 45px;
+    margin-bottom: 5%;
+    box-shadow: 5px 10px 5px #888888;
+    transition: transform .2s;
+    margin-left: 3%;
+    float: left;
+}
+
+.galleryPic:hover {
+    transform: scale(1.5);
+}
+.myMap {
+    float: left;
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;width:600px;
+}
+
+table {
+    float: right;
+    width: 40%;
+}
+table tr, table td, table th{
+    padding: 1%;
+    text-align: left;
+}
+footer {
+    position: absolute;
+    top: 120%;
+    width: 70%;
+    padding-left: 25%;
+    clear: both;
+}
+
+@media screen and (max-width: 1500px){
+    body {
+        background-image: none;
+    }
+   
+}
+@media screen and (max-width: 1200px){ 
+    #wrap {
+        width: 80%;
+    }
+    
+    .shopPic {
+        max-width: 100%;
+    }
+    nav {
+        position: relative;
+    }
+    nav li {
+        display: block;
+    }
+    nav a {
+        font-size: 200%;
+        padding: 1%;
+    }
+    nav a:hover {
+        color: #FAF8F9;
+        background-color: inherit;
+    }
+    .shopPic {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .galleryPic {
+        display: block;
+        width: 80%;
+        height: 80%;
+        margin-left: 1%;
+    }
+    .galleryPic:hover {
+        transform: none;
+    }
+    table {
+        float: right;
+        width: 100%;
+    }
+    .gmap_canvas {
+        height:100%;
+        width:100%;
+    }
+    .myMap {
+        height:100%;
+        width:100%;
+    }
+    footer {
+        position: absolute;
+        top: 300%;
+        width: 100%;
+        padding-left: 10%;
+    }
+}
